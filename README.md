@@ -4,12 +4,14 @@
 
 cp [OPTION] SOURCE DEST
 option:
+
 -r یا -R
 کپی بازگشتی دایرکتوری‌ها (برای پوشه‌ها الزامی است)
 
 -a (archive)
 کپی کامل به همراه:
-permission ها
+permission 
+
 مالک (owner)
 گروه (group)
 زمان‌ها (timestamps)
@@ -22,6 +24,7 @@ permission ها
 
 قبل از overwrite سؤال می‌پرسد
 -f (force)
+
 
 overwrite بدون سؤال
 
