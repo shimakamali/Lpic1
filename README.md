@@ -1,40 +1,15 @@
-eدستور `cp` (Copy)
+
 دستور `cp` برای **کپی کردن فایل‌ها و دایرکتوری‌ها** در لینوکس استفاده می‌شود.
 
 
 cp [OPTION] SOURCE DEST
 
-option:
-
-
--r یا -R
-
-کپی بازگشتی دایرکتوری‌ها (برای پوشه‌ها الزامی است)
-
--a (archive)
-
-کپی کامل به همراه:
-permission 
-
-مالک (owner)
-گروه (group)
-زمان‌ها (timestamps)
-لینک‌ها
-✅ بهترین گزینه برای بکاپ
--v (verbose)
-
-نمایش جزئیات عملیات کپی
--i (interactive)
-
-قبل از overwrite سؤال می‌پرسد
--f (force)
-
-
-overwrite بدون سؤال
-
--u (update)
-
-فقط اگر فایل منبع جدیدتر باشد کپی می‌کند
+**Common Options:**
+- `-r` : Copy directories recursively.
+- `-a` : Archive mode (preserves permissions, ownership, timestamps, links).
+- `-v` : Verbose output (shows what's being copied).
+- `-i` : Interactive — asks before overwriting files.
+- `-u` : Only copy when the source is newer than the destination.
 
 
 
