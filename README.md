@@ -19,14 +19,23 @@ useradd is a low-level Linux command used to create a new user account.
 
 useradd [options] username
 Common options
+
 -m : create the user’s home directory
+
 -d : specify a custom home directory
+
 -s : set the user’s login shell
+
 -c : add a comment or full name
+
 -g : set the primary group
+
 -G : add supplementary groups
+
 -u : set a custom UID
+
 -e : set an account expiration date 
+
 forexm:
 useradd -m -s /bin/bash ali  
 
