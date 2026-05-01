@@ -11,5 +11,9 @@ cp [OPTION] SOURCE DEST
 - `-i` : Interactive — asks before overwriting files.
 - `-u` : Only copy when the source is newer than the destination.
 
+cd change directory
+To use `cd` on a directory, you must have execute (`x`) permission on that directory.
+
+
 
 
