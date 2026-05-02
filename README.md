@@ -79,7 +79,48 @@ accountCould not chdir to home directory /home/test5: Permission denied
 
 The directory /home/test5 does not exist, or
 It exists but is owned by the wrong user, or
-Permissions on the directory or .bash_profile prevent the user from accessing it.
+Permissions on the directory or .bash_profile prevent the user from accessing it
+
+nproc  Logical CPU 
+
+lscpu
+
+grep -c ^processor /proc/cpuinfo 
+
+pip:
+ [Command A] | [Command B]
+ 
+ wc [options] [file]wc = word count
+
+-l = line countCount lines in a fil
+
+forex:
+
+wc -l /etc/passwd
+
+more
+Shows text page by page
+Can only move forward
+Simple and old
+
+less
+Advanced pager
+Can move up and down
+Supports search
+Better for logs and large output
+
+file filename :type file
+
+
+
+
+
+
+
+
+
+
+
 
 
 
