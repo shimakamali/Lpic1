@@ -71,7 +71,18 @@ usermod -l newname oldname
 
 -L   Lock the user account
 
--U   Unlock the user account
+-U   Unlock the user 
+
+error:
+accountCould not chdir to home directory /home/test5: Permission denied
+-bash: /home/test5/.bash_profile: Permission denied
+
+The directory /home/test5 does not exist, or
+It exists but is owned by the wrong user, or
+Permissions on the directory or .bash_profile prevent the user from accessing it.
+
+
+
 
 
 
