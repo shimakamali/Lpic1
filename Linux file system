@@ -1,0 +1,15 @@
+/var
+EN: Stores variable data that changes during system operation.
+
+Examples: logs, cache, databases, runtime data.
+
+ محل ذخیره داده‌هایی که در طول کار سیستم مدام تغییر می‌کنند.
+
+مثل لاگ‌ها، کش، داده سرویس‌ها و فایل‌های زمان اجرا.
+
+/var/log
+EN: System and service log files are stored here.
+
+Used for monitoring and troubleshooting.
+
+FA: لاگ‌های سیستم و سرویس‌ها در اینجا ذخیره می‌شوند و برای بررسی خطاها و عیب‌یابی استفاده می‌شود.
