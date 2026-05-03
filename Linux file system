@@ -45,5 +45,24 @@ FA: داده‌هایی که فقط هنگام اجرای سیستم وجود د
 RAM 
 ذخیره می‌شوند و بعد از 
 reboot
+ میسود
 پاک
+
+/var/lib   → application data
+/var/cache → temporary cache
+/run       → runtime data
+/var/log   → logs
+
+/run → runtime files created by running services.
+
+وقتی این سرویس‌ها یا اجزای سیستم اجرا می‌شوند، ممکن است فایل‌های موقتی در 
+/run
+بسازند
+مثل:
+
+PID file → شماره پردازه سرویس
+Socket → برای ارتباط بین برنامه‌ها (IPC)
+
+
+
 
